@@ -1,0 +1,52 @@
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* Style the navigation bar links */
+  .nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: #FFF;
+    color: black;
+  }
+  
+  /* Active/current link */
+  .nav a.active {
+    background-color: #666;
+    color: white;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style-type: none; /* Remove default list-style */
+    padding: 0;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li::marker {
+    display: none; /* Hide the marker */
+}
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li a.kananlogin {
+    margin-left: 750px;
+}
